@@ -1,5 +1,7 @@
 import bottle, os
 
+#test comment
+
 @bottle.route('/')
 def helloWorld():
     return 'Daníel er kominn á Heroku.'
